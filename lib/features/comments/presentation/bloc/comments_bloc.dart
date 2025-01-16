@@ -8,9 +8,9 @@ part "comments_event.dart";
 part "comments_state.dart";
 
 class CommentsBloc extends Bloc<CommentsEvent, CommentsState> {
-  final CommentsUseCase postsUseCase;
+  final CommentsUseCase comentsUseCase;
 
-  CommentsBloc(this.postsUseCase) : super(CommentsInitialState()) {
+  CommentsBloc(this.comentsUseCase) : super(CommentsInitialState()) {
     on<OnGettingCommentsEvent>(_onGettingCommentsEvent);
   }
 
@@ -21,7 +21,7 @@ class CommentsBloc extends Bloc<CommentsEvent, CommentsState> {
         emitter(CommentsLoadingState());
     }
 
-    final result = await postsUseCase.call(CommentParams(id: event.postId));
+    final result = await comentsUseCase.call(CommentParams(id: event.postId));
      result.fold((l) {
        emitter(ErrorGetCommentsState(l.errorMessage));
     }, (r) {
