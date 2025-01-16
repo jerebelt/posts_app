@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:posts_app/core/router/app_route_enum.dart';
 import 'package:posts_app/core/router/router.dart';
 import 'package:posts_app/features/posts/domain/models/models.dart';
 

@@ -5,7 +5,7 @@ import 'package:posts_app/features/comments/domain/models/models.dart';
 import 'package:posts_app/features/comments/domain/usecases/comments_usecase.dart';
 import 'package:posts_app/features/comments/presentation/bloc/comments_bloc.dart';
 import 'package:posts_app/features/comments/presentation/presentation.dart';
-import 'package:posts_app/shared/widgets/widgets.dart';
+import 'package:posts_app/shared/presentation/widgets/widgets.dart';
 
 class CommentsPage extends StatefulWidget {
   final int idPost;

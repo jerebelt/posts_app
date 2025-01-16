@@ -4,7 +4,7 @@ import 'package:posts_app/core/utils/injections.dart';
 import 'package:posts_app/features/posts/domain/models/post_model.dart';
 import 'package:posts_app/features/posts/domain/usecases/posts_usecase.dart';
 import 'package:posts_app/features/posts/presentation/bloc/posts_bloc.dart';
-import 'package:posts_app/shared/widgets/widgets.dart';
+import 'package:posts_app/shared/presentation/widgets/widgets.dart';
 
 import 'post_card_widget.dart';
 
