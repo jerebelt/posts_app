@@ -1,4 +1,4 @@
-import 'package:bloc/bloc.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:posts_app/core/core.dart';
 import 'package:posts_app/features/posts/domain/models/models.dart';
 import 'package:posts_app/features/posts/domain/usecases/posts_usecase.dart';
