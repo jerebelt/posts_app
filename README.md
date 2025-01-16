@@ -3,6 +3,12 @@
 A Flutter demo project.
 
 This app is aimed to run it on Android and iOS.
+## Installation
+
+```bash
+flutter pub get
+flutter run
+```
 
 It follow the Clean Architechture design pattern with a MVVM architechture, implementing Bloc as state management.
 
